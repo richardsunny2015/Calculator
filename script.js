@@ -2,8 +2,11 @@
 /* eslint-disable complexity */
 const buttons = document.querySelector('.buttons')
 const output = document.querySelector('.output')
+const head = document.querySelector('head')
+alert(head)
 let num = 0
 let operation = 0
+
 
 buttons.addEventListener('click', evt => {
     if (evt.target.tagName === 'BUTTON') {
