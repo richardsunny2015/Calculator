@@ -2,8 +2,6 @@
 /* eslint-disable complexity */
 const buttons = document.querySelector('.buttons')
 const output = document.querySelector('.output')
-const head = document.querySelector('head')
-alert(String(head.innerHTML))
 let num = 0
 let operation = 0
 
