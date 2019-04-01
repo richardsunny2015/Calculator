@@ -2,9 +2,6 @@
 /* eslint-disable complexity */
 const buttons = document.querySelector('.buttons')
 const output = document.querySelector('.output')
-const check = document.querySelector('#check')
-const head = document.querySelector('head')
-check.innerText = head.innerHTML;
 let num = 0
 let operation = 0
 
